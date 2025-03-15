@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #232222;
+  color: #f9f6f6;
+  font-family: "Roboto Condensed";
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-container {
+  margin-top: 8px;
+  background-color: #95771f;
+  border-radius: 8px;
+  width: 550px;
+  height: 95%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+#basic-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+#basic-info input {
+  margin: 4px 8px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+.subject-container input {
+  margin: 4px 8px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+input:focus {
+  outline: 2px solid #757574dd;
+}
+
+.subject-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subject-container input {
+  width: 50%;
+}
+
+.subject-container label {
+  margin-left: 10px;
+}
+
+#calc-marks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #d4b0438f;
+  margin: 4px 8px;
+  height: 45px;
+  color: #f9f6f6;
+}
+
+#cta-btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#cta-btn button {
+  cursor: pointer;
+  width: 35%;
+  padding: 10px 12px;
+  outline: none;
+  border: none;
+  background-color: #007bff;
+  color: #f9f6f6;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#cta-btn button:hover {
+  background-color: #026cdd;
+}
+
+.resultDivStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #d4b0438f;
+  margin: 10px;
+  color: #f9f6f6;
+  height: 175px;
+}

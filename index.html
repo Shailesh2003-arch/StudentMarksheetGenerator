@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marksheet Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="heading">
+        <h2>Student Marksheet Generator</h2>
+      </div>
+      <div id="basic-info">
+        <input
+          type="text"
+          id="stud_name"
+          class="mt-2"
+          placeholder="Enter Student Name"
+          required
+        />
+        <input
+          type="text"
+          id="clg_name"
+          class="mt-2"
+          placeholder="Enter College Name"
+          required
+        />
+        <input
+          type="text"
+          id="reg_no"
+          class="mt-2"
+          placeholder="Enter Registration No"
+          required
+        />
+      </div>
+      <div class="subject-container">
+        <label for="firstlang">1st Language</label>
+        <input
+          type="text"
+          id="firstlang"
+          class="marks-input"
+          min="0"
+          max="100"
+          required
+        />
+      </div>
+      <div class="subject-container">
+        <label for="secondlang">2nd Language</label>
+        <input
+          type="text"
+          id="secondlang"
+          class="marks-input"
+          min="0"
+          max="100"
+          required
+        />
+      </div>
+      <div class="subject-container">
+        <label for="maths">Maths</label>
+        <input
+          type="text"
+          id="maths"
+          class="marks-input"
+          min="0"
+          max="100"
+          required
+        />
+      </div>
+      <div class="subject-container">
+        <label for="history">History</label>
+        <input
+          type="text"
+          id="history"
+          class="marks-input"
+          min="0"
+          max="100"
+          required
+        />
+      </div>
+      <div class="subject-container">
+        <label for="geography">Geography</label>
+        <input
+          type="text"
+          id="geography"
+          class="marks-input"
+          min="0"
+          max="100"
+          required
+        />
+      </div>
+      <div id="calc-marks">Total Marks: 0/500</div>
+      <div id="cta-btn">
+        <button id="calc-marks-btn">Calculate Marks</button>
+        <button type="reset" id="reset-btn">Reset</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
