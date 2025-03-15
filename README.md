@@ -23,6 +23,13 @@ This project is a simple **Student Marks Calculator** that takes input for marks
 ├── script.js       # JavaScript logic for marks calculation
 ├── README.md       # Documentation (this file)
 ```
+
+### 1️⃣ Project Structure
+![Project Structure](images/Startup_project-structure.png)
+
+### 2️⃣ Resulting Marksheet
+![Resulting Marksheet](images/Startup_project-result.png)
+
 ## 🚀 Usage
 1. Clone the repository:
    ```sh
